@@ -1,0 +1,54 @@
+:root {
+  --bg: #0b0b0b;
+  --accent: #ff2d55;
+  --accent2: #00ffe7;
+  --text: #fff;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+.hero {
+  padding: 4rem;
+  text-align: center;
+  background: linear-gradient(180deg, #111, #000);
+}
+
+.hero h1 {
+  font-size: 3rem;
+  color: var(--accent);
+  text-shadow: 0 0 10px var(--accent2);
+}
+
+.cta {
+  display: inline-block;
+  margin-top: 1rem;
+  background: var(--accent);
+  color: #fff;
+  padding: .8rem 1.2rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+.gallery {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.gallery img {
+  width: 45%;
+  border: 2px solid var(--accent2);
+  border-radius: 8px;
+}
