@@ -59,8 +59,8 @@ section {
 }
 
 #marquee-text {
-  display: inline-block;
-  padding: 0.5rem 1rem;
+  display: inline-flex;
+  padding: 0.5rem 28rem;
   animation: scroll-left 12s linear infinite;
 }
 
