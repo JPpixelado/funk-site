@@ -46,6 +46,28 @@ section {
   gap: 1rem;
   justify-content: center;
 }
+#marquee {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #ff2d55;
+  color: #fff;
+  overflow: hidden;
+  white-space: nowrap;
+  z-index: 999;
+}
+
+#marquee-text {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  animation: scroll-left 12s linear infinite;
+}
+
+@keyframes scroll-left {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
 
 .gallery img {
   width: 45%;
